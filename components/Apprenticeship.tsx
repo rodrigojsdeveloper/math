@@ -19,7 +19,7 @@ const Apprenticeship = () => {
 
       <ul className="flex flex-row gap-16">
         <li className="flex flex-col items-center gap-3">
-          <i className="text-pink-color text-4xl md:text-6xl lg:text-7xl">
+          <i className="text-4xl text-pink-color md:text-6xl lg:text-7xl">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -39,7 +39,7 @@ const Apprenticeship = () => {
         </li>
 
         <li className="flex flex-col items-center gap-3">
-          <i className="text-pink-color text-4xl md:text-6xl lg:text-7xl">
+          <i className="text-4xl text-pink-color md:text-6xl lg:text-7xl">
             <svg
               stroke="currentColor"
               fill="currentColor"
