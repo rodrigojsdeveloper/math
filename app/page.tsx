@@ -1,9 +1,9 @@
-import Logo from '@/src/components/Logo'
+import Header from '@/src/components/Header'
 
 export default function Home() {
   return (
-    <main>
-      <Logo />
+    <main className="p-8">
+      <Header />
     </main>
   )
 }
