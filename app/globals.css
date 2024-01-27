@@ -21,13 +21,13 @@
 }
 
 :root {
-  --primary-color: '#9740EF';
-  --secondary-color: '#FBFBFB';
-  --button-color: '#111111';
-  --background-color: 'rgb(9, 9, 9)';
-  --section-color: 'rgb(13, 13, 13)';
-  --input-color: 'hsla(0, 0%, 100%, .05)';
-  --selection: 'rgb(13, 13, 13, .5)';
+  --primary-color: #9740EF;
+  --secondary-color: #FBFBFB;
+  --button-color: #111111;
+  --background-color: rgb(9, 9, 9);
+  --section-color: rgb(13, 13, 13);
+  --input-color: hsla(0, 0%, 100%, .05);
+  --selection: rgb(13, 13, 13, .5);
 }
 
 html {
