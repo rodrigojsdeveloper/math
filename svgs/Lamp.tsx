@@ -2,10 +2,11 @@ const Lamp = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="109"
-      height="106"
+      width="66"
+      height="66"
       viewBox="0 0 109 106"
       fill="none"
+      className="size-[50px] sm:size-[66px]"
     >
       <g filter="url(#filter0_d_307_99)">
         <ellipse

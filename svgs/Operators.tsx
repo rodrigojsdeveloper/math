@@ -2,10 +2,11 @@ const Operators = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="101"
-      height="88"
+      width="66"
+      height="66"
       viewBox="0 0 101 88"
       fill="none"
+      className="size-[50px] sm:size-[66px]"
     >
       <g clip-path="url(#clip0_310_42)">
         <rect

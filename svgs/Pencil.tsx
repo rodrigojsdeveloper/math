@@ -2,10 +2,11 @@ const Pencil = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="105"
-      height="111"
+      width="66"
+      height="66"
       viewBox="0 0 105 111"
       fill="none"
+      className="size-[50px] sm:size-[66px]"
     >
       <path
         d="M47.091 102.78C14.8929 117.973 29.6469 54.4165 3.89756 73.358"
