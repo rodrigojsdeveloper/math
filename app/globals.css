@@ -70,7 +70,7 @@ a {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 0.4rem;
-  background-color: var(--button-color);
+  background-color: hsla(0,0%,100%,.12);
 }
 
 ::selection {

@@ -1,5 +1,6 @@
-import { Poppins } from 'next/font/google'
 import { PropsWithChildren } from 'react'
+import { Poppins } from 'next/font/google'
+import Header from '@/components/Header'
 import type { Metadata } from 'next'
 import './globals.css'
 
@@ -17,7 +18,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en" className={`${poppins.variable} w-full font-poppins`}>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
