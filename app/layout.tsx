@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="en" className={`${poppins.variable} font-poppins w-full`}>
+    <html lang="en" className={`${poppins.variable} w-full font-poppins`}>
       <body>{children}</body>
     </html>
   )
