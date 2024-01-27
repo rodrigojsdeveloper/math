@@ -2,15 +2,17 @@ import Button from './Button'
 
 const Apprenticeship = () => {
   return (
-    <div className="flex flex-row justify-between px-16">
+    <div className="flex flex-col items-center justify-between gap-x-5 gap-y-10 md:flex-row md:items-start lg:px-16">
       <div className="flex w-full max-w-[400px] flex-col gap-7">
-        <h2 className="text-4xl font-bold">Overcome learning difficulties</h2>
+        <h2 className="text-2xl font-bold sm:text-4xl">
+          Overcome learning difficulties
+        </h2>
 
-        <p className="border-l-4 border-solid border-primary-color pl-3 text-base">
+        <p className="border-l-4 border-solid border-primary-color pl-3 text-sm sm:text-base">
           Thinking about usability, we developed a simple and intuitive
           platform.
         </p>
-        <p className="border-l-4 border-solid border-primary-color pl-3 text-base">
+        <p className="border-l-4 border-solid border-primary-color pl-3 text-sm sm:text-base">
           We provide tools to help users complete the exercise.
         </p>
 
@@ -19,7 +21,7 @@ const Apprenticeship = () => {
 
       <ul className="flex flex-row gap-16">
         <li className="flex flex-col items-center gap-3">
-          <i className="text-4xl text-pink-color md:text-6xl lg:text-7xl">
+          <i className="text-4xl text-pink-color sm:text-6xl lg:text-7xl">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -39,7 +41,7 @@ const Apprenticeship = () => {
         </li>
 
         <li className="flex flex-col items-center gap-3">
-          <i className="text-4xl text-pink-color md:text-6xl lg:text-7xl">
+          <i className="text-4xl text-pink-color sm:text-6xl lg:text-7xl">
             <svg
               stroke="currentColor"
               fill="currentColor"
