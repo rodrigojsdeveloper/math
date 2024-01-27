@@ -8,20 +8,20 @@ const Tips = () => {
     <section className="w-full bg-section-color px-4 py-12">
       <ul className="flex flex-row flex-wrap justify-center gap-x-6 gap-y-12">
         <Tip
-          title="Escolha um operador"
-          description="Escolha entre os 4 operadores matemáticos básicos para praticar"
+          title="Choose an operator"
+          description="Choose from 4 basic mathematical operators to practice"
         >
           <Operators />
         </Tip>
         <Tip
-          title="Pratique com exercícios"
-          description="A prática é muito importante para o aprendizado"
+          title="Practice with exercises"
+          description="Practice is very important for learning"
         >
           <Pencil />
         </Tip>
         <Tip
-          title="Dica e Ajuda"
-          description="Ferramentas para te auxiliar durante os exercícios"
+          title="Tip and Help"
+          description="Tools to help you during exercises"
         >
           <Lamp />
         </Tip>
