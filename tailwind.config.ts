@@ -18,6 +18,7 @@ const config: Config = {
         'background-color': 'var(--background-color)',
         'section-color': 'var(--section-color)',
         'input-color': 'var(--input-color)',
+        'pink-color': 'var(--pink-color)',
       },
       backgroundImage: {
         accents: 'linear-gradient(to right,#fbfbfb,#d121ee,#9740ef)',
