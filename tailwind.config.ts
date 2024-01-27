@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ['var(--font-poppins)'],
+      },
       colors: {
         'primary-color': 'var(--primary-color)',
         'secondary-color': 'var(--secondary-color)',
@@ -15,6 +18,9 @@ const config: Config = {
         'background-color': 'var(--background-color)',
         'section-color': 'var(--section-color)',
         'input-color': 'var(--input-color)',
+      },
+      backgroundImage: {
+        accents: 'linear-gradient(to right,#fbfbfb,#d121ee,#9740ef)',
       },
     },
   },

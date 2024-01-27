@@ -1,9 +1,13 @@
 import { PropsWithChildren } from 'react'
-import { Inter } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import type { Metadata } from 'next'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  variable: '--font-poppins',
+})
 
 export const metadata: Metadata = {
   title: 'Math',
@@ -12,8 +16,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${poppins.variable} font-poppins w-full`}>
+      <body>{children}</body>
     </html>
   )
 }
