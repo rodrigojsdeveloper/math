@@ -10,3 +10,7 @@ export interface IOperator {
   isSelected: boolean
   onSelect: () => void
 }
+
+export interface IGoBack {
+  href: string
+}

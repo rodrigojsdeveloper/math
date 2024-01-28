@@ -1,9 +1,10 @@
+import { IGoBack } from '@/interfaces'
 import Link from 'next/link'
 
-const GoBack = () => {
+const GoBack = ({ href }: IGoBack) => {
   return (
     <Link
-      href="/"
+      href={href}
       className="flex size-11 items-center justify-center rounded-md border-2 border-solid border-transparent hover:border-button-color"
     >
       <svg

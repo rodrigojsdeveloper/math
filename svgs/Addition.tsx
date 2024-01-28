@@ -32,7 +32,7 @@ const Addition = () => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#D121EE" />
-          <stop offset="1" stop-color="#741EE1" stopOpacity="0.5" />
+          <stop offset="1" stopColor="#741EE1" stopOpacity="0.5" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_108_121"

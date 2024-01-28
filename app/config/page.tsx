@@ -4,13 +4,13 @@ import Link from 'next/link'
 
 export default function Config() {
   return (
-    <main className="mx-auto flex w-full max-w-[900px] flex-col gap-8">
+    <main className="mx-auto flex w-full max-w-[900px] flex-col gap-8 px-6 pb-6">
       <h2 className="text-center text-2xl font-bold">Select options</h2>
       <Operators />
       <div className="flex flex-row items-center justify-between">
-        <GoBack />
+        <GoBack href="/config" />
         <Link
-          href=""
+          href="/exercise"
           className="flex size-11 items-center justify-center rounded-md border-2 border-solid border-primary-color bg-primary-color hover:bg-transparent"
         >
           <svg

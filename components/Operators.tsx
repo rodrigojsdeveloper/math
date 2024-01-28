@@ -18,7 +18,7 @@ const Operators = () => {
     <div className="flex flex-col gap-6 rounded-xl bg-section-color p-6">
       <h3 className="text-sm font-semibold sm:text-base">Operator type:</h3>
 
-      <ul className="flex flex-wrap gap-4">
+      <ul className="flex gap-4">
         <Operator
           title="Addition"
           isSelected={selectedOperator === 'Addition'}
@@ -33,6 +33,8 @@ const Operators = () => {
         >
           <Subtraction />
         </Operator>
+      </ul>
+      <ul className="flex gap-4">
         <Operator
           title="Division"
           isSelected={selectedOperator === 'Division'}
