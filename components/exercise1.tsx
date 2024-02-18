@@ -19,7 +19,7 @@ export const ExerciseResult = () => {
   }, [])
 
   return (
-    <div className="m-auto flex w-full max-w-[700px] flex-col gap-8">
+    <div className="m-auto flex w-full max-w-[43.75rem] flex-col gap-8">
       <div className="flex flex-row items-center justify-between">
         <GoBack href="/config" />
 
@@ -51,7 +51,7 @@ export const ExerciseResult = () => {
           placeholder="Enter the result"
           onChange={handleVerifyRequest}
           type="number"
-          className={`h-[51px] w-full max-w-[248.8px] appearance-none rounded-lg border border-solid border-input-color bg-input-color ${border} p-3 placeholder:focus:text-transparent`}
+          className={`h-[3.188rem] w-full max-w-[15.55rem] appearance-none rounded-lg border border-solid border-input-color bg-input-color ${border} p-3 placeholder:focus:text-transparent`}
         />
       </div>
 

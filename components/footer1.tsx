@@ -1,7 +1,7 @@
 'use client'
 
-import { Copyright } from './Copyright'
-import { Logo } from '@/svgs/Logo'
+import { Copyright } from './copyright1'
+import { Logo } from '@/svgs/logo1'
 
 export const Footer = () => {
   const scrollTop = () => {
@@ -9,9 +9,9 @@ export const Footer = () => {
   }
 
   return (
-    <footer className="flex w-full max-w-[1600] flex-col gap-12 border-t-2 border-solid border-input-color px-4 pb-4">
+    <footer className="flex w-full max-w-[100rem] flex-col gap-12 border-t-2 border-solid border-input-color px-4 pb-4">
       <div className="flex flex-col justify-between gap-5 pt-12 sm:flex-row sm:items-center">
-        <div className="flex w-full max-w-[400px] flex-col gap-5">
+        <div className="flex w-full max-w-[25rem] flex-col gap-5">
           <Logo />
 
           <p className="text-sm opacity-70">

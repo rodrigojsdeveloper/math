@@ -4,7 +4,7 @@ export const Button = () => {
   return (
     <Link
       href="/config"
-      className="flex h-12 w-full max-w-[157px] flex-row items-center justify-between gap-4 rounded-br-3xl rounded-tl-3xl border-2 border-solid border-primary-color bg-primary-color px-3 py-2 hover:bg-transparent sm:h-[63.2px] sm:max-w-[200px]"
+      className="flex h-12 w-full max-w-[9.813rem] flex-row items-center justify-between gap-4 rounded-br-3xl rounded-tl-3xl border-2 border-solid border-primary-color bg-primary-color px-3 py-2 hover:bg-transparent sm:h-[3.95rem] sm:max-w-[12.5rem]"
     >
       <p className="text-md m-auto text-center font-medium sm:text-lg">
         Start now
@@ -17,7 +17,7 @@ export const Button = () => {
         height="36"
         width="36"
         xmlns="http://www.w3.org/2000/svg"
-        className="size-8 sm:size-[36px]"
+        className="size-8 sm:size-[2.25rem]"
       >
         <path
           fillRule="evenodd"

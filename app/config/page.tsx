@@ -2,7 +2,7 @@
 
 import { useContext } from 'react'
 import { useRouter } from 'next/navigation'
-import { Operators } from '@/components/Operators'
+import { Operators } from '@/components/operators1'
 import { GoBack } from '@/components/go-back'
 import { Context } from '@/contexts/context'
 
@@ -11,7 +11,7 @@ export default function Config() {
   const router = useRouter()
 
   return (
-    <main className="mx-auto flex w-full max-w-[900px] flex-col gap-8 p-6">
+    <main className="mx-auto flex w-full max-w-[56.25rem] flex-col gap-8 p-6">
       <h2 className="text-center text-2xl font-bold">Select options</h2>
       <Operators />
       <div className="flex flex-row items-center justify-between">

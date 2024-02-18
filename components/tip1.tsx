@@ -7,7 +7,7 @@ export const Tip = ({ children, title, description }: TipProps) => {
 
       <div className="flex flex-col gap-2 text-center sm:text-start">
         <h2 className="text-base font-semibold sm:text-lg">{title}</h2>
-        <p className="w-full max-w-[300px] text-sm sm:text-base">
+        <p className="w-full max-w-[18.75rem] text-sm sm:text-base">
           {description}
         </p>
       </div>

@@ -1,11 +1,11 @@
 'use client'
 
 import { useContext } from 'react'
-import { Subtraction } from '@/svgs/Subtraction'
-import { Division } from '@/svgs/Division'
-import { Addition } from '@/svgs/Addition'
-import { Multiply } from '@/svgs/Multiply'
-import { Operator } from './Operator'
+import { Subtraction } from '@/svgs/subtraction1'
+import { Division } from '@/svgs/division1'
+import { Addition } from '@/svgs/addition1'
+import { Multiply } from '@/svgs/multiply1'
+import { Operator } from './operator1'
 import { Context } from '@/contexts/context'
 
 export const Operators = () => {

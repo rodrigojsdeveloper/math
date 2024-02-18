@@ -6,7 +6,7 @@ export const Pencil = () => {
       height="66"
       viewBox="0 0 105 111"
       fill="none"
-      className="size-[50px] sm:size-[66px]"
+      className="size-[3.125rem] sm:size-[4.125rem]"
     >
       <path
         d="M47.091 102.78C14.8929 117.973 29.6469 54.4165 3.89756 73.358"

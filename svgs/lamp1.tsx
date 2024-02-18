@@ -6,7 +6,7 @@ export const Lamp = () => {
       height="66"
       viewBox="0 0 109 106"
       fill="none"
-      className="size-[50px] sm:size-[66px]"
+      className="size-[3.125rem] sm:size-[4.125rem]"
     >
       <g filter="url(#filter0_d_307_99)">
         <ellipse
