@@ -2,9 +2,9 @@
 
 import { useContext, useEffect } from 'react'
 import { Context } from '@/contexts/context'
-import GoBack from './GoBack'
+import { GoBack } from './go-back'
 
-const ExerciseResult = () => {
+export const ExerciseResult = () => {
   const {
     getOperator,
     handleRandom,
@@ -66,5 +66,3 @@ const ExerciseResult = () => {
     </div>
   )
 }
-
-export default ExerciseResult

@@ -1,6 +1,6 @@
-import Button from './Button'
+import { Button } from './Button'
 
-const Apprenticeship = () => {
+export const Apprenticeship = () => {
   return (
     <div className="flex flex-col items-center justify-between gap-x-5 gap-y-10 md:flex-row md:items-start lg:px-16">
       <div className="flex w-full max-w-[400px] flex-col gap-7">
@@ -64,5 +64,3 @@ const Apprenticeship = () => {
     </div>
   )
 }
-
-export default Apprenticeship

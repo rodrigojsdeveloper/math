@@ -1,6 +1,6 @@
-import Button from './Button'
+import { Button } from './Button'
 
-const Introduction = () => {
+export const Introduction = () => {
   return (
     <div className="m-auto mt-[190px] flex flex-col items-center gap-10">
       <div className="flex flex-col items-center gap-5 px-4 text-center">
@@ -21,5 +21,3 @@ const Introduction = () => {
     </div>
   )
 }
-
-export default Introduction

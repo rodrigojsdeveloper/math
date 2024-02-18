@@ -1,7 +1,7 @@
-import { IGoBack } from '@/interfaces'
 import Link from 'next/link'
+import { GoBackProps } from '@/interfaces'
 
-const GoBack = ({ href }: IGoBack) => {
+export const GoBack = ({ href }: GoBackProps) => {
   return (
     <Link
       href={href}
@@ -24,5 +24,3 @@ const GoBack = ({ href }: IGoBack) => {
     </Link>
   )
 }
-
-export default GoBack

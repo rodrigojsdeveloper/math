@@ -1,4 +1,4 @@
-const Addition = () => {
+export const Addition = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -50,5 +50,3 @@ const Addition = () => {
     </svg>
   )
 }
-
-export default Addition

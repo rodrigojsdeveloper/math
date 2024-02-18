@@ -1,9 +1,9 @@
 'use client'
 
-import Operators from '@/components/Operators'
-import GoBack from '@/components/GoBack'
-import { useRouter } from 'next/navigation'
 import { useContext } from 'react'
+import { useRouter } from 'next/navigation'
+import { Operators } from '@/components/Operators'
+import { GoBack } from '@/components/go-back'
 import { Context } from '@/contexts/context'
 
 export default function Config() {

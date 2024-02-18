@@ -1,4 +1,4 @@
-const Operators = () => {
+export const Operators = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -159,5 +159,3 @@ const Operators = () => {
     </svg>
   )
 }
-
-export default Operators

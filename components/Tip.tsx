@@ -1,6 +1,6 @@
-import { ITipProps } from '@/interfaces'
+import { TipProps } from '@/interfaces'
 
-const Tip = ({ children, title, description }: ITipProps) => {
+export const Tip = ({ children, title, description }: TipProps) => {
   return (
     <li className="flex flex-col items-center gap-6 sm:flex-row">
       {children}
@@ -14,5 +14,3 @@ const Tip = ({ children, title, description }: ITipProps) => {
     </li>
   )
 }
-
-export default Tip

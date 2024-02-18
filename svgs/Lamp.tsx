@@ -1,4 +1,4 @@
-const Lamp = () => {
+export const Lamp = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -397,5 +397,3 @@ const Lamp = () => {
     </svg>
   )
 }
-
-export default Lamp

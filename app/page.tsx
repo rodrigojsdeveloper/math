@@ -1,7 +1,7 @@
-import Apprenticeship from '@/components/Apprenticeship'
-import Introduction from '@/components/Introduction'
-import Footer from '@/components/Footer'
-import Tips from '@/components/Tips'
+import { Apprenticeship } from '@/components/Apprenticeship'
+import { Introduction } from '@/components/Introduction'
+import { Footer } from '@/components/Footer'
+import { Tips } from '@/components/Tips'
 
 export default function Home() {
   return (

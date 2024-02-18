@@ -1,4 +1,4 @@
-const Division = () => {
+export const Division = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -45,5 +45,3 @@ const Division = () => {
     </svg>
   )
 }
-
-export default Division

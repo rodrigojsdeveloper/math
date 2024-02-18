@@ -1,14 +1,14 @@
 'use client'
 
 import { useContext } from 'react'
-import Subtraction from '@/svgs/Subtraction'
-import Division from '@/svgs/Division'
-import Addition from '@/svgs/Addition'
-import Multiply from '@/svgs/Multiply'
-import Operator from './Operator'
+import { Subtraction } from '@/svgs/Subtraction'
+import { Division } from '@/svgs/Division'
+import { Addition } from '@/svgs/Addition'
+import { Multiply } from '@/svgs/Multiply'
+import { Operator } from './Operator'
 import { Context } from '@/contexts/context'
 
-const Operators = () => {
+export const Operators = () => {
   const { selectedOperator, handleSelectedOperator } = useContext(Context)
 
   return (
@@ -50,5 +50,3 @@ const Operators = () => {
     </div>
   )
 }
-
-export default Operators

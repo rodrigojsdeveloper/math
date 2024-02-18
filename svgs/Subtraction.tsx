@@ -1,4 +1,4 @@
-const Subtraction = () => {
+export const Subtraction = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -31,5 +31,3 @@ const Subtraction = () => {
     </svg>
   )
 }
-
-export default Subtraction

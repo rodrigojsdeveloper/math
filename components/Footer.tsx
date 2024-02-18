@@ -1,9 +1,9 @@
 'use client'
 
-import Copyright from './Copyright'
-import Logo from '@/svgs/Logo'
+import { Copyright } from './Copyright'
+import { Logo } from '@/svgs/Logo'
 
-const Footer = () => {
+export const Footer = () => {
   const scrollTop = () => {
     window.scroll({ top: 0 })
   }
@@ -48,5 +48,3 @@ const Footer = () => {
     </footer>
   )
 }
-
-export default Footer

@@ -1,4 +1,4 @@
-import ExerciseResult from '@/components/Exercise'
+import { ExerciseResult } from '@/components/Exercise'
 
 export default function Exercise() {
   return (

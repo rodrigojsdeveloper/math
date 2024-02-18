@@ -1,4 +1,4 @@
-const Pencil = () => {
+export const Pencil = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -137,5 +137,3 @@ const Pencil = () => {
     </svg>
   )
 }
-
-export default Pencil

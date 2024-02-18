@@ -1,9 +1,9 @@
-import Operators from '@/svgs/Operators'
-import Pencil from '@/svgs/Pencil'
-import Lamp from '@/svgs/Lamp'
-import Tip from './Tip'
+import { Operators } from '@/svgs/Operators'
+import { Pencil } from '@/svgs/Pencil'
+import { Lamp } from '@/svgs/Lamp'
+import { Tip } from './Tip'
 
-const Tips = () => {
+export const Tips = () => {
   return (
     <section className="w-full bg-section-color px-4 py-12">
       <ul className="flex flex-col items-center gap-x-6 gap-y-12 md:flex-row md:flex-wrap md:justify-center">
@@ -31,5 +31,3 @@ const Tips = () => {
     </section>
   )
 }
-
-export default Tips

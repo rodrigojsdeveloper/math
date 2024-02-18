@@ -1,17 +1,17 @@
-export interface ITipProps {
+export interface TipProps {
   children: React.ReactNode
   title: string
   description: string
 }
 
-export interface IOperator {
+export interface OperatorProps {
   children: React.ReactNode
   title: string
   isSelected: boolean
   onSelect: () => void
 }
 
-export interface IGoBack {
+export interface GoBackProps {
   href: string
 }
 

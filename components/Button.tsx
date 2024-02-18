@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const Button = () => {
+export const Button = () => {
   return (
     <Link
       href="/config"
@@ -27,5 +27,3 @@ const Button = () => {
     </Link>
   )
 }
-
-export default Button

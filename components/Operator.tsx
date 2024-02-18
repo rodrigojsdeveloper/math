@@ -1,6 +1,11 @@
-import { IOperator } from '@/interfaces'
+import { OperatorProps } from '@/interfaces'
 
-const Operator = ({ title, children, isSelected, onSelect }: IOperator) => {
+export const Operator = ({
+  title,
+  children,
+  isSelected,
+  onSelect,
+}: OperatorProps) => {
   return (
     <li
       onClick={onSelect}
@@ -11,5 +16,3 @@ const Operator = ({ title, children, isSelected, onSelect }: IOperator) => {
     </li>
   )
 }
-
-export default Operator

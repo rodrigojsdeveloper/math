@@ -1,8 +1,8 @@
 import { PropsWithChildren } from 'react'
 import { Poppins } from 'next/font/google'
 import type { Metadata } from 'next'
-import './globals.css'
 import Providers from '@/contexts'
+import './globals.css'
 
 const poppins = Poppins({
   subsets: ['latin'],
