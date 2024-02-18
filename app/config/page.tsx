@@ -1,17 +1,25 @@
+'use client'
+
 import Operators from '@/components/Operators'
 import GoBack from '@/components/GoBack'
-import Link from 'next/link'
+import { useRouter } from 'next/navigation'
+import { useContext } from 'react'
+import { Context } from '@/contexts/context'
 
 export default function Config() {
+  const { isOperatorSelected } = useContext(Context)
+  const router = useRouter()
+
   return (
-    <main className="mx-auto flex w-full max-w-[900px] flex-col gap-8 px-6 pb-6">
+    <main className="mx-auto flex w-full max-w-[900px] flex-col gap-8 p-6">
       <h2 className="text-center text-2xl font-bold">Select options</h2>
       <Operators />
       <div className="flex flex-row items-center justify-between">
         <GoBack href="/" />
-        <Link
-          href="/exercise"
-          className="flex size-11 items-center justify-center rounded-md border-2 border-solid border-primary-color bg-primary-color hover:bg-transparent"
+        <button
+          onClick={() => router.push('/exercise')}
+          disabled={isOperatorSelected}
+          className="flex size-11 items-center justify-center rounded-md border-2 border-solid border-primary-color bg-primary-color hover:bg-transparent disabled:opacity-70 disabled:hover:bg-primary-color"
         >
           <svg
             stroke="currentColor"
@@ -27,7 +35,7 @@ export default function Config() {
               d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             ></path>
           </svg>
-        </Link>
+        </button>
       </div>
     </main>
   )

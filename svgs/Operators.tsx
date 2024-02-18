@@ -8,7 +8,7 @@ const Operators = () => {
       fill="none"
       className="size-[50px] sm:size-[66px]"
     >
-      <g clip-path="url(#clip0_310_42)">
+      <g clipPath="url(#clip0_310_42)">
         <rect
           x="70.7334"
           y="64.5333"

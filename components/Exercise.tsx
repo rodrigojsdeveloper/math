@@ -16,7 +16,7 @@ const ExerciseResult = () => {
 
   useEffect(() => {
     handleRandom()
-  })
+  }, [])
 
   return (
     <div className="m-auto flex w-full max-w-[700px] flex-col gap-8">

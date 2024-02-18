@@ -1,6 +1,5 @@
 import { PropsWithChildren } from 'react'
 import { Poppins } from 'next/font/google'
-import Header from '@/components/Header'
 import type { Metadata } from 'next'
 import './globals.css'
 import Providers from '@/contexts'
@@ -20,10 +19,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <Providers>
       <html lang="en" className={`${poppins.variable} w-full font-poppins`}>
-        <body>
-          <Header />
-          {children}
-        </body>
+        <body>{children}</body>
       </html>
     </Providers>
   )

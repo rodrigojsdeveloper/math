@@ -6,15 +6,29 @@ import { ContextDataProps } from '../interfaces'
 export const Context = createContext({} as ContextDataProps)
 
 export const ContextProvider = ({ children }: PropsWithChildren) => {
+  const isBrowser = typeof window !== 'undefined'
   const generateRandomNumber = () => Math.floor(Math.random() * 100) + 1
 
-  const [selectedOperator, setSelectedOperator] = useState<string>('')
+  const [selectedOperator, setSelectedOperator] = useState<string>(() => {
+    const operatorOnStorage =
+      isBrowser && localStorage.getItem('Mathematical: Operator')
+
+    if (operatorOnStorage) {
+      return operatorOnStorage
+    }
+
+    return ''
+  })
   const [random1, setRandom1] = useState(generateRandomNumber())
   const [random2, setRandom2] = useState(generateRandomNumber())
-  const [border, setBorder] = useState('')
+  const [border, setBorder] = useState<string>('')
+  const [isOperatorSelected, setIsOperatorSelected] = useState<boolean>(true)
 
   const handleSelectedOperator = (operator: string) => {
+    setIsOperatorSelected(false)
     setSelectedOperator(operator)
+
+    localStorage.setItem('Mathematical: Operator', operator)
   }
 
   const getOperator = () => {
@@ -82,6 +96,7 @@ export const ContextProvider = ({ children }: PropsWithChildren) => {
     random1,
     random2,
     border,
+    isOperatorSelected,
   }
 
   return <Context.Provider value={cityContextData}>{children}</Context.Provider>

@@ -24,4 +24,5 @@ export interface ContextDataProps {
   random1: number
   random2: number
   border: string
+  isOperatorSelected: boolean
 }
