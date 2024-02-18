@@ -1,6 +1,6 @@
 'use client'
 
-import { Copyright } from './copyright1'
+import { Copyright } from './copyright'
 import { Logo } from '@/svgs/logo1'
 
 export const Footer = () => {

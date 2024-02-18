@@ -1,7 +1,7 @@
 import { Operators } from '@/svgs/operators1'
 import { Pencil } from '@/svgs/pencil1'
 import { Lamp } from '@/svgs/lamp1'
-import { Tip } from './tip1'
+import { Tip } from './tip'
 
 export const Tips = () => {
   return (

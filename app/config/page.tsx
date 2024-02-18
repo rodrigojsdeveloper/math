@@ -2,7 +2,7 @@
 
 import { useContext } from 'react'
 import { useRouter } from 'next/navigation'
-import { Operators } from '@/components/operators1'
+import { Operators } from '@/components/operators'
 import { GoBack } from '@/components/go-back'
 import { Context } from '@/contexts/context'
 
