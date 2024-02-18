@@ -1,37 +1,22 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useContext, useEffect } from 'react'
+import { Context } from '@/contexts/context'
 import GoBack from './GoBack'
 
 const ExerciseResult = () => {
-  const generateRandomNumber = () => Math.floor(Math.random() * 100) + 1
-
-  const [random1, setRandom1] = useState(generateRandomNumber())
-  const [random2, setRandom2] = useState(generateRandomNumber())
-  const [border, setBorder] = useState('')
+  const {
+    getOperator,
+    handleRandom,
+    handleVerifyRequest,
+    random1,
+    random2,
+    border,
+  } = useContext(Context)
 
   useEffect(() => {
-    setRandom1(generateRandomNumber())
-    setRandom2(generateRandomNumber())
-  }, [])
-
-  const handleRandom = () => {
-    setRandom1(generateRandomNumber())
-    setRandom2(generateRandomNumber())
-    setBorder('border-input-color')
-  }
-
-  const handleVerifyRequest = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const value = event.target.value
-    const result = random1 - random2
-    const sum = +value === result
-
-    if (sum) {
-      setTimeout(() => setBorder('border-green-400'), 1500)
-    } else {
-      setTimeout(() => setBorder('border-red-400'), 1500)
-    }
-  }
+    handleRandom()
+  })
 
   return (
     <div className="m-auto flex w-full max-w-[700px] flex-col gap-8">
@@ -54,7 +39,7 @@ const ExerciseResult = () => {
       <p className="mx-auto flex flex-col gap-3 text-center text-4xl font-bold sm:flex-row">
         What is the result of{' '}
         <span>
-          {random1} - {random2}
+          {random1} {getOperator()} {random2}
         </span>
       </p>
 

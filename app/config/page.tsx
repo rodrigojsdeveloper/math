@@ -8,7 +8,7 @@ export default function Config() {
       <h2 className="text-center text-2xl font-bold">Select options</h2>
       <Operators />
       <div className="flex flex-row items-center justify-between">
-        <GoBack href="/config" />
+        <GoBack href="/" />
         <Link
           href="/exercise"
           className="flex size-11 items-center justify-center rounded-md border-2 border-solid border-primary-color bg-primary-color hover:bg-transparent"
