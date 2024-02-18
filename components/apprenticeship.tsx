@@ -1,4 +1,4 @@
-import { Button } from './button1'
+import { Button } from './button'
 
 export const Apprenticeship = () => {
   return (
