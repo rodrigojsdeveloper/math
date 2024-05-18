@@ -12,7 +12,7 @@
 You can clone this repository using the following command:
 
 ```
-https://github.com/rodrigojsdeveloper/mathematical.git
+git clone https://github.com/rodrigojsdeveloper/mathematical.git
 ```
 
 ## Package Manager

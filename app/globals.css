@@ -1,6 +1,11 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-select {
+  @apply select-none;
+  -webkit-user-drag: none;
+}
 
 * {
   border: 0;
@@ -12,12 +17,11 @@
   scroll-behavior: smooth;
 
   font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 
   -webkit-tap-highlight-color: transparent;
+  scrollbar-color: var(--secondary-color) transparent;
 }
 
 :root {
@@ -43,36 +47,6 @@ body {
   background-color: var(--background-color);
 }
 
-button,
-a, img {
-  transition: 0.3s;
-}
-
-button, img, a {
-  user-select: none;
-}
-
-button, a {
-  cursor: pointer;
-}
-
 a {
   text-decoration: none;
-}
-
-::-webkit-scrollbar {
-  width: 0.25rem;
-}
-
-::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 0.4rem;
-  background-color: hsla(0,0%,100%,.12);
-}
-
-::selection {
-  background-color: var(--selection);
 }

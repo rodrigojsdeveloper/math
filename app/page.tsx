@@ -8,10 +8,10 @@ export default function Home() {
     <main className="flex flex-col gap-[13rem]">
       <Introduction />
       <Tips />
-      <div className="flex flex-col gap-[9.25rem] px-6">
+      <section className="mx-auto flex w-full max-w-[100rem] flex-col gap-[9.25rem] px-4">
         <Apprenticeship />
         <Footer />
-      </div>
+      </section>
     </main>
   )
 }
